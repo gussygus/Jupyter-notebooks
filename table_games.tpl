@@ -10,11 +10,11 @@
     <p><b>New Releases Steam:</b></p>
     <table border="15">
 
-    <tr><td><b>Title</b></td><td><b>Price</b></td><td><b>Tags</b></td><td><b>Platforms</b></td>
+    <tr><td><b>Tittle</b></td><td><b>Price</b></td><td><b>Tags</b></td><td><b>Platforms</b></td>
     %for row in rows:
         <tr>
-        %for col in row:
-            <td>{{col}}</td>
+        %for column,value in row.items():
+            <td>{{value}}</td>
         %end
         </tr>
     %end

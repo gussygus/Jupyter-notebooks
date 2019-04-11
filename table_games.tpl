@@ -10,7 +10,7 @@
     <p><b>New Releases Steam:</b></p>
     <table border="15">
 
-    <tr><td><b>Tittle</b></td><td><b>Price</b></td><td><b>Tags</b></td><td><b>Platforms</b></td>
+    <tr><td height="50"><b>Tittle</b></td><td><b>Price</b></td><td><b>Tags</b></td><td><b>Platforms</b></td>
     %for row in rows:
         <tr>
         %for column,value in row.items():
